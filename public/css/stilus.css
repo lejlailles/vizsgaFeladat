@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+
+}
+
+main{
+    max-width:100%;
+}
+.szakdolgozatoklistazasa{
+    width: 100%;
+    display: table;
+
+}
+
+
+.fejlec {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+    background-color:black;
+    color:antiquewhite;
+    padding:10px;
+  
+}
+.szakdogaLista{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+    padding:10px;
+  
+}
+
+.szakdogaLista:nth-child(2){
+    background-color: grey;
+  
+}
+
+.ujadat{
+    margin:5px;
+}
+
+
